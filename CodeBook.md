@@ -11,7 +11,7 @@ You may find this data set in tidy_data.txt in this repo.
 
 Please refer to features_info.txt in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip for datailed description of the following variables.
 
-Below the list of all variables in tidy_data_set:
+Below the list of all variables in tidy_data_set where mean() is a mean value and std() is a measure of standard deviation:
 
 - Activities
 - Subjects
