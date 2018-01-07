@@ -13,7 +13,7 @@ Please refer to features_info.txt in https://d396qusza40orc.cloudfront.net/getda
 
 Below the list of all variables in tidy_data_set:
 
-"Activities"
+- "Activities"
 "Subjects"
 "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
