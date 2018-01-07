@@ -43,7 +43,7 @@ combined_data_set$Activities<-mapvalues(combined_data_set$Activities, from=as.ve
 names(combined_data_set)<-mapvalues(names(combined_data_set), from=as.vector(paste("V",as.character(clean_features$V1),sep="")), to=as.vector(clean_features$V2))
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-tidy_data_set<- combined_data_set %>% group_by(.dots=c("Activities", "Subjects"))%>% summarise_at(names(combined_data_set)[3:67], mean, na.rm=FALSE)
+tidy_data_set<- combined_data_set %>% group_by(.dots=c("Activities", "Subjects"))%>% summarise_at(names(combined_data_set)[3:68], mean, na.rm=FALSE)
 
 #Save data into a file:
 write.table(tidy_data_set,"./tidy_data.txt", row.name=FALSE) 
